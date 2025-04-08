@@ -35,11 +35,12 @@
     </div>
 
     <!-- Modal hiển thị kết quả với Tailwind -->
-    <div id="resultModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center" onclick="closeModal(event)">
-        <div id="modalContent" class="bg-white p-5 rounded-lg text-center shadow-lg max-w-sm w-[90%]">
-            <h2 class="text-2xl font-bold mb-4">Kết quả trúng thưởng</h2>
-            <p id="modalResult" class="text-xl"></p>
-            <!-- Bạn có thể thêm hình ảnh vào đây sau này -->
+    <div id="resultModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center" onclick="closeModal(event)" >
+        <div id="modalContent" class="relative bg-[transparent] p-5 rounded-lg text-center shadow-lg max-w-sm w-[90%] bg-[length:100%_100%] h-[90%] max-h-[500px]" style="background-image: url('./img/modal.png')">
+            <div class="absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-75%] text-white w-full">
+                <h2 class="text-2xl font-bold mb-4">Kết quả trúng thưởng</h2>
+                <p id="modalResult" class="text-xl"></p>
+            </div>
         </div>
     </div>
 
