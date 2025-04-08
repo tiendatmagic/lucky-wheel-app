@@ -48,7 +48,7 @@
         let wheels = [];
         let currentWheelId = 'wheel-0';
         let items = [];
-        const API_BASE_URL = 'http://localhost:8000/api';
+        const API_BASE_URL = '/api';
 
         async function fetchWheels() {
             try {

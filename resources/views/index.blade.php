@@ -62,7 +62,7 @@
         const canvas = document.getElementById('wheelCanvas');
         const ctx = canvas.getContext('2d');
         const spinButton = document.getElementById('spinButton');
-        const API_BASE_URL = 'http://localhost:8000/api';
+        const API_BASE_URL = '/api';
 
         const updateCanvasSize = () => {
             if (window.innerWidth >= 768) {
