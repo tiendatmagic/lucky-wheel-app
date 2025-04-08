@@ -39,9 +39,10 @@
             id: 'wheel-0',
             name: 'Vòng quay mặc định',
             items: [
-                { name: "Trúng lớn", weight: 10 },
+                { name: "Trúng lớn", weight: 5 },
+                { name: "Trúng vừa", weight: 10 },
                 { name: "Trúng nhỏ", weight: 20 },
-                { name: "Chúc may mắn", weight: 70 }
+                { name: "Chúc may mắn lần sau", weight: 65 }
             ]
         };
         let wheels = [];
